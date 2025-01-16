@@ -40,9 +40,9 @@ const Contact: React.FC = () => {
               </p>
               <p className="flex items-center gap-2">
                 <span className="text-gray-400">Phone:</span>
-                <a href={`tel:${contact.phone}`} className="hover:text-gray-300">
+                {/* <a href={`tel:${contact.phone}`} className="hover:text-gray-300">
                   {contact.phone}
-                </a>
+                </a> */}
               </p>
             </div>
             <div className="flex gap-4">
