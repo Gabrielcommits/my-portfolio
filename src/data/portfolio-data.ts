@@ -14,21 +14,21 @@ export const portfolioData = {
     {
       title: "Responsive Movies Web App",
       description: "A modern and responsive web app utilizing React Hooks such as useState, useEffect useParams and more, for dynamic state management and fetching movie data. The app allows users to browse movies, view detailed information including cast, trailers (via YouTube), and similar movies. ",
-      image: "public/movies-app-preview.png",
+      image: "/movies-app-preview.png",
       technologies: ["React", "JavaScript", "React-Router", "TMDb API", "SCSS"],
       link: "https://movies-app-ashen-six.vercel.app/react-movie-app"
     },
     {
       title: "Virtual Reality Landing Page",
       description: "A responsive and modern landing page designed with a mobile-first approach to showcase virtual reality experiences and products. Emphasizing clean design and fast loading times to provide an engaging user experience across all devices. Featuring dynamic visuals, and placed call-to-actions (CTAs),",
-      image: "public/virtual-reality-landing-page-prod.vercel.app_ (1).png", // You'll need to add these images to your public folder
+      image: "/virtual-reality-landing-page-prod.vercel.app_ (1).png", // You'll need to add these images to your public folder
       technologies: ["React", "JavaScript", "Tailwind CSS", "Vercel", "npm", "Git"],
       link: "https://virtual-reality-landing-page-prod.vercel.app/"
     },
     {
       title: "Pizza ordering and tracking app",
       description: "A sleek front-end application that allows users to browse a pizza menu that is fetched from an external Rest API, customize orders, manage their cart, and track their order status. Features include dynamic item updates, a search bar for finding previous orders, and an checkout process.",
-      image: "public/fast-pizza-ordering.vercel.app_.png",
+      image: "/fast-pizza-ordering.vercel.app_.png",
       technologies: ["React", "Redux", "React-Router", "Tailwind CSS", "Rest API", "Git"],
       link: "https://fast-pizza-ordering.vercel.app/"
     },
