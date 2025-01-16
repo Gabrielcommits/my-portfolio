@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import Projects from './components/Projects';
 import Services from './components/Services';
 import Work from './components/Work';
 import About from './components/About';

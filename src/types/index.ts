@@ -8,7 +8,7 @@ export interface Project {
 
 export interface Service {
   id: string;
-  number: string;
+  // number: string;
   title: string;
   description: string;
   details: string[];
