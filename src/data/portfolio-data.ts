@@ -8,7 +8,7 @@ export const portfolioData = {
   intro: {
     title: "Hi there, I'm Gabriel!",
     description:
-      "A Front-End Web Developer driven by a curiosity for emerging technologies and a focus on continuous learning and improvement, I consistently seek out innovative approaches to solve complex problems.",
+      "A bilingual Front-End Web Developer driven by a curiosity for emerging technologies and a focus on continuous learning and improvement, I consistently seek out innovative approaches to solve complex problems.",
   },
   projects: [
     {
@@ -51,7 +51,7 @@ export const portfolioData = {
         "React & Vue Development(and More!)",
         "State Management (Redux, Context API)",
         "Responsive Design",
-        "Clean Code",
+        "Spanish Native Speaker & English Fluent(C1)",
       ]
     },
     // {
@@ -70,7 +70,7 @@ export const portfolioData = {
   ],
   about: {
     description: `Professional with experience in web development, I've had the pleasure of working as a freelance developer and I'm the co-founder of a Japanese learning platform(Still in Development). My journey began by cloning landing pages with simple HTML and CSS, but my passion for creating exceptional user experiences, solving complex problems and creating software that improves people's lives led me to become proficient in modern frameworks and tools.
-     When I'm not coding, I spend my time reading or hanging out with my friends!.`,
+     When I'm not coding, I spend my time reading, learning languages or hanging out with my friends!.`,
   
     skills: [
       // "Frontend Development",
