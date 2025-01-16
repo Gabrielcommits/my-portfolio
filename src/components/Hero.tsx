@@ -1,7 +1,7 @@
 import { portfolioData } from '../data/portfolio-data';
 
 const Hero: React.FC = () => {
-  const { intro } = portfolioData;
+  const { intro, social } = portfolioData;
 
   return (
     <section className="min-h-screen flex items-center px-6 py-20">
@@ -11,12 +11,12 @@ const Hero: React.FC = () => {
           {intro.description}
         </p>
         <div className="mt-8 flex gap-4" style={{ animationDelay: '0.6s' }}>
-          <button className="px-8 py-3 bg-white text-black rounded-full hover-lift">
+          <a href='#work' className="px-8 py-3 bg-white text-black rounded-full hover-lift">
             View Projects
-          </button>
-          <button className="px-8 py-3 border border-white rounded-full hover-lift">
-            Contact Me
-          </button>
+          </a>
+          <a href={social.linkedin} className="px-8 py-3 border border-white rounded-full hover-lift">
+            LinkedIn
+          </a>
         </div>
       </div>
     </section>

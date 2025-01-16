@@ -32,9 +32,9 @@ const App: React.FC = () => {
       <Header />
       <main>
         <Hero />
-        <Projects />
-        <Services />
+        {/* <Projects /> */}
         <Work />
+        <Services />
         <About />
         <Contact />
       </main>

@@ -7,7 +7,7 @@ const Work: React.FC = () => {
   return (
     <section id="work" className="py-20 px-6 bg-gray-900">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold mb-12">My Work</h2>
+        <h2 className="text-4xl font-bold mb-12">Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <div 
@@ -23,7 +23,7 @@ const Work: React.FC = () => {
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="flex flex-col justify-center items-center h-full text-center p-6">
                     <h3 className="text-2xl font-bold mb-3">{project.title}</h3>
-                    <p className="text-gray-200 mb-4">{project.description}</p>
+                    <p className="text-white-900 mb-4 font-bold">{project.description}</p>
                     <div className="flex gap-2">
                       {project.technologies.map((tech, i) => (
                         <span 
